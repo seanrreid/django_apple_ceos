@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apple_ceos.apps.AppleCeosConfig'
+    'apple_ceos'
 ]
 
 MIDDLEWARE = [
