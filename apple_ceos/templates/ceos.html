@@ -1,0 +1,12 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hello World</h1>
+    <p>There are {{ num_ceos }} CEOs in the history of Apple Computers.</p>
+    {% for ceo in ceo_list %}
+    <li>
+        {{ ceo.name }} - {{ ceo.year }}
+    </li>
+  {% endfor %}
+{% endblock %}
