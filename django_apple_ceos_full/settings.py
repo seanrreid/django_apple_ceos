@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'django_apple_ceos_full.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "apple_ceos_2",
-        "USER": "seanreid",
-        "HOST": "localhost",
+        "NAME": MY_DATABASE,
+        "USER": MY_USERNAME,
+        "HOST": MY_HOST
         "PORT": 5432,
     }
 }
